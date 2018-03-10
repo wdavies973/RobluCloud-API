@@ -55,9 +55,9 @@ public class CloudTeam {
 	}
 	@Override
 	public String toString() {
-		return "Team [code=" + code + ", officialTeamName=" + officialTeamName + ", ownerEmail=" + ownerEmail
-				+ ", secret=" + secret + ", number=" + number + ", activeEventName=" + activeEventName
-				+ ", active=" + active + ", form=" + form + ", ui=" + ui + "]";
+		return "Team [code=" + code + "\nofficialTeamName=" + officialTeamName + "\nownerEmail=" + ownerEmail
+				+ "\nsecret=" + secret + "\nnumber=" + number + "\nactiveEventName=" + activeEventName
+				+ "\nactive=" + active + "\nform=" + form + "\nui=" + ui + "]";
 	}
 	public String getSecret() {
 		return secret;

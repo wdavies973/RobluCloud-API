@@ -91,7 +91,7 @@ public class AdminRequest {
 			t.setCode(code);
 			t.setOfficialTeamName((response.get("official_team_name").toString()));
 			t.setOwnerEmail(response.get("owner_email").toString());
-			t.setNumber((long)response.get("number"));
+			t.setSecret(response.get("secret").toString());
 			t.setActiveEventName((String)response.get("active_event_name"));
 			return t;
 		} catch(Exception e) {
